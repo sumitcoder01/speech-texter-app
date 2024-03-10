@@ -1,4 +1,4 @@
-export default function ListenButton() {
+export function TextListenButton() {
   return (
     <div>
       Listen
