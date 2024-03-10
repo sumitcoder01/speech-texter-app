@@ -13,7 +13,7 @@ export function ListenButton() {
       onClick={listening ? stopListen : startListen}
       className='px-5 py-2 rounded-md bg-blue-500 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50'
     >
-      <span className='flex justify-center gap-2 items-center'>{listening ? "stop" : "start"} <MicroPhone listening={listening} /></span>
+      <span className='flex justify-center gap-2 items-center'>{listening ? "Stop" : "Start"} <MicroPhone listening={listening} /></span>
     </button>
   )
 }
